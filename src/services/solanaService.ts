@@ -141,7 +141,7 @@ export class SolanaService {
     console.log("serializedTransactionsWithTip", serializedTransactionsWithTip);
     // Send the bundle
     const response = await fetch(
-      "https://testnet.block-engine.jito.wtf/api/v1/bundles",
+      `https://${config.network}.block-engine.jito.wtf/api/v1/bundles`,
       {
         method: "POST",
         headers: {
@@ -246,7 +246,7 @@ export class SolanaService {
 
   async getTipAccounts(): Promise<string[]> {
     const response = await fetch(
-      "https://testnet.block-engine.jito.wtf/api/v1/bundles",
+      `https://${config.network}.block-engine.jito.wtf/api/v1/bundles`,
       {
         method: "POST",
         headers: {
