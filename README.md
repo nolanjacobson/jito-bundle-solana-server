@@ -22,7 +22,7 @@
      ```
 
 4. **Fund Your Solana Wallet**:
-   - Ensure your Solana wallet is funded and has the SPL tokens minted (the wallet in the privatekey.json file is already funded).
+   - Ensure your Solana wallet is funded and has the SPL tokens minted (the wallet in the src/privatekey.json file is already funded).
 
 ## Running the Server
 
